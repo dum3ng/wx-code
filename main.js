@@ -19,7 +19,7 @@ if (qs.code) {
 } else {
   ele.innerText = "no code , will redirect";
   setTimeout(() => {
-    const appId = "wx707aad1c20975b7d";
+    const appId = "wx5955755dd64a8c3c";
     const redirectUrl = encodeURIComponent(window.location.href);
     window.location.assign(
       `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appId}&redirect_uri=${redirectUrl}&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect`
