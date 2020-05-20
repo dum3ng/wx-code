@@ -11,6 +11,8 @@ if (s) {
 }
 
 const ele = document.querySelector("#code");
+const href = document.querySelector("#href");
+href.innerText = window.location.href;
 if (qs.code) {
   // has code
   ele.innerText = qs.code;
