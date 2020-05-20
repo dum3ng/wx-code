@@ -10,7 +10,7 @@ if (s) {
   });
 }
 
-const ele = document.querySelector("code");
+const ele = document.querySelector("#code");
 if (qs.code) {
   // has code
   ele.innerText = qs.code;
